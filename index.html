@@ -51,6 +51,38 @@
 
 
 
+/* Default styles */
+body {
+    font-family: "Raleway", sans-serif;
+    color: black;
+}
+
+/* Styles for larger screens */
+@media only screen and (min-width: 768px) {
+    /* Adjust styles for tablets and larger devices */
+    .w3-sidebar {
+        width: 300px;
+    }
+    .w3-main {
+        margin-left: 300px;
+    }
+}
+
+/* Styles for smaller screens */
+@media only screen and (max-width: 767px) {
+    /* Adjust styles for phones */
+    .w3-sidebar {
+        display: none;
+    }
+    .w3-main {
+        margin-left: 0;
+    }
+}
+
+
+
+
+
     </style>
   </head>
 <body class="w3-light-grey w3-content" style="max-width:1600px">
